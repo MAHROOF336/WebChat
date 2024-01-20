@@ -1,6 +1,6 @@
 //jshint esversion:6
 const mongo = require('mongodb').MongoClient;
-const client = require('socket.io').listen(4000).sockets;
+const client = require('socket.io').listen(3000).sockets;
 
 // Connect to mongo
 mongo.connect('mongodb://127.0.0.1/webchat', function(err, db){
